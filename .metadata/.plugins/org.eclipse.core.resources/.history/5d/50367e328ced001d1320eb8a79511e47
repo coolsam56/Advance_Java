@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table Print</title>
+</head>
+<body>
+
+    out.println("<h2> Table of Given Number is: "+ +"</h2>");
+ 
+	<%!
+	int i=Integer.parseInt(request.getParameter("no1"));
+   for (int j=1;j<=10;j++)
+   { int tab=i*j;
+   out.println("<h2> 5"*"i"=" +tab +"</h2>");
+   }
+    %>
+
+</body>
+</html>

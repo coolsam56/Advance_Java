@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DATA to SERVLET</title>
+</head>
+<body bgcolor="cyan">
+<form align="center" action=""  method="">
+<p1>NAME:</p1>
+<input type="text" name="uname" placeholder="Enter your name" required>
+<br>
+<br>
+<p1>AGE:</p1>
+
+<input type="text" name="age" placeholder="Enter your Age" required>
+<br>
+<br>
+<input type ="submit" value="SUBMIT"></form>
+</body>
+</html>

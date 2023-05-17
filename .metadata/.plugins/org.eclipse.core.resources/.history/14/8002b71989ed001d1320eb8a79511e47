@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Result of JSP</title>
+</head>
+<body>
+
+<%! int i,j,k,summ; 
+float avg ;
+%>
+<% i=Integer.ParseInt(request.getParamater("no1"));
+   j=Integer.ParseInt(request.getParamater("no2"));
+   k=Integer.ParseInt(request.getParamater("no3"));
+   summ=i+j+k;
+   avg=(float)summ/3;
+out.println("Sum of the Above number  ")
+%>
+
+</body>
+</html>

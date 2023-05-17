@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body bgcolor="yellow">
+
+<h3>6 Types of Hea1ding in HTML </h3>
+<h1>Largest Heading</h1>
+<h2>Second Largest Heading </h2>
+<h3>Third Largest Heading </h3>
+<h4>Third Smallest Heading </h4>
+<h5>Second Smallest Heading </h5>
+<h6>Smallest Heading </h6>
+
+
+
+<h3> Ordered List</h3>
+
+<ol type="1">
+<li> item A</li>
+<li> item B</li>
+<li> item C</li>
+</ol>
+<br>
+
+<h3> Unordered List</h3>
+<ul type="solid">
+<li> item A</li>
+<li> item B</li>
+<li> item C</li>
+</ul>
+
+<a href ="Design.html"> Go to page 1 </a> 
+<br>
+
+<a href ="Table.html"> Go to Table </a> 
+
+</body>
+</html>

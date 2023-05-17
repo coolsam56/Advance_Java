@@ -1,0 +1,36 @@
+package com.sin;
+
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Loginn extends HttpServlet {
+	
+	String sname,spass;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		
+		sname = request.getParameter("uname");
+		spass = request.getParameter("pass");
+	
+		if(sname.equals("Sistec") && spass.equals("Test")) {
+			RequestDispatcher rd = request.getRequestDispatcher("Welcome");
+			rd.forward(request, response);
+		}
+		else {
+			
+			out.print("Invalid Credentials");
+			RequestDispatcher rd = request.getRequestDispatcher("Uii.html");
+			rd.include(request,response);
+		}
+	}
+
+}
